@@ -1,0 +1,44 @@
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: #fff;
+}
+
+body.rails_admin .sidebar-nav {
+  padding: 9px 9px 40px 9px;
+  position: fixed;
+  width: 16%;
+  overflow-y: scroll;
+  top: 50px;
+  bottom: 0;
+  background: #eaf0f1;
+  z-index: 100;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+.page-header {
+  padding-bottom: 5px;
+  margin: 10px 0 13px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.content {
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+.nav-stacked > li {
+  float: none;
+	font-size: 13px;
+	line-height: 1;
+}
+
+.nav-stacked > li + li {
+  margin-top: 0;
+  margin-left: 0;
+}
